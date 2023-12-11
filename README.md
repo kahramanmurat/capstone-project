@@ -57,7 +57,8 @@ For local testing:
       
 `image-gateway.dockerfile`:
 * Build: `docker build -t jelly-model-gateway:001 -f image-gateway.dockerfile .`
-* Finally Run the docker compose file `docker-compose.yaml`
+
+Finally Run the docker compose file `docker-compose.yaml`
 
    
 
