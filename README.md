@@ -48,14 +48,14 @@ There are 3 types deployments:
    `Note`: API Gateway is restricted to only my ip information so it may not work due to restricted ip
    
 3. Kubernetes deployment (Local and AWS ECR/EKS)
-   For local testing:
-      Build and Run the docker image inside the `kubernetes` folder
-         `image-model.dockerfile`:
-         Build: `docker build -t jelly-model:xception-v4-001 -f image-model.dockerfile .`
-         Run: `docker run -it --rm -p 8500:8500 jelly-model:xception-v4-001`
-         `image-gateway.dockerfile`:
-         Build: `docker build -t jelly-model-gateway:001 -f image-gateway.dockerfile .`
-         Run: `docker run -it --rm -p 9696:9696 jelly-model-gateway:001`
+   * For local testing:
+      * Build and Run the docker image inside the `kubernetes` folder
+         1. `image-model.dockerfile`:
+            * Build: `docker build -t jelly-model:xception-v4-001 -f image-model.dockerfile .`
+            * Run: `docker run -it --rm -p 8500:8500 jelly-model:xception-v4-001`
+         2. `image-gateway.dockerfile`:
+            * Build: `docker build -t jelly-model-gateway:001 -f image-gateway.dockerfile .`
+            * Run: `docker run -it --rm -p 9696:9696 jelly-model-gateway:001`
 
    
 
