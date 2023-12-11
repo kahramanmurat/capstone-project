@@ -25,7 +25,25 @@ Due to the limited size of the dataset, the project exclusively depends on Trans
 1 CNN architectures were used:
 * `Xception`: one of the most popular architectures available on Keras.
 
-# Files
+# Files & Testing
+
+There are 3 types deployments:
+
+1. Local deployment
+
+   For testing:
+      * Build the docker image `capstone/Dockerfile`
+      ```
+      docker build -t jelly-model .
+      ```
+      * Run the docker image:
+      ```
+      docker run -it --rm -p 8080:8080 jelly-model:latest
+      ```
+      * Run the pthon file `capstone/test.py` and use the url `url = 'http://localhost:8080/2015-03-31/functions/function/invocations'`
+
+3. Serverless AWS Lambda and API Gateway Deployment
+4. Kubernetes deployment (Local and AWS ECR/EKS)
 
 * `notebook.ipynb`: main Jupyter Notebook where all EDA and model training is carried out.
 * `xception_v4_1_17_0.846.h5`: trained model in `notebook.ipynb`. learning rate, size inner and dropout parameters were optimized and were chosen best model with the checkpoint.
