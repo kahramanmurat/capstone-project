@@ -21,4 +21,6 @@ This dataset contains three folders:
 Jellyfish classification: Use machine learning techniques to classify jellyfish images into different categories based on their physical characteristics. For my capstone project, I chose to focus on Deep Learning.
 
 
+Due to the limited size of the dataset, the project exclusively depends on Transfer Learning for extracting features from images.
+
 
