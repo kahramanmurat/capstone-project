@@ -42,8 +42,13 @@ There are 3 types deployments:
       ```
       * Run the pthon file `capstone/test.py` and use the url `url = 'http://localhost:8080/2015-03-31/functions/function/invocations'`
 
-3. Serverless AWS Lambda and API Gateway Deployment
-4. Kubernetes deployment (Local and AWS ECR/EKS)
+2. Serverless AWS Lambda and API Gateway Deployment
+
+   use the url `url="https://5oph9792mi.execute-api.us-east-1.amazonaws.com/test/predict"`
+   `Note`: API Gateway is restricted to only my ip information so it may not work due to restricted ip
+   
+3. Kubernetes deployment (Local and AWS ECR/EKS)
+   
 
 * `notebook.ipynb`: main Jupyter Notebook where all EDA and model training is carried out.
 * `xception_v4_1_17_0.846.h5`: trained model in `notebook.ipynb`. learning rate, size inner and dropout parameters were optimized and were chosen best model with the checkpoint.
