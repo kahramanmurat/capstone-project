@@ -10,4 +10,15 @@ This dataset contains 900 images of jellyfish belonging to six different categor
 5. `Lion’s mane jellyfish (Cyanea capillata)`: Largest jellyfish in the world, with a bell that can grow up to 2 meters in diameter and tentacles that can reach up to 30 meters in length. It feeds on plankton and small fish by catching them in its tentacles.
 6. `Mauve stinger (Pelagia noctiluca)`: Small jellyfish with long tentacles and warty structures on its bell full of stinging cells. It feeds on other small jellyfish and oceanic sea squirts.
 
+This dataset contains three folders:
+
+* train (150 images each)
+* test (~7 images each)
+* validation (~7 images each)
+
+# Problem Description
+
+Jellyfish classification: Use machine learning techniques to classify jellyfish images into different categories based on their physical characteristics. For my capstone project, I chose to focus on Deep Learning.
+
+
 
