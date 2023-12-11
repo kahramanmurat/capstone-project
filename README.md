@@ -31,8 +31,11 @@ Due to the limited size of the dataset, the project exclusively depends on Trans
 * `xception_v4_1_17_0.846.h5`: trained model in `notebook.ipynb`.
 * `convert-model.py`: converts `xception_v4_1_17_0.846.h5` model to tflite model `jelly-model.tflite`.
 * `lambda-function.py` contains the inference code for predictions. The script is formatted for deployment on Amazon Web Services' Lambda.
+* `test.py`: testing the model
 * `docker` is a folder that contains all of the necessary components for dockerization and deployment sections:
     * `Dockerfile` is the file necessary to create the Docker image.
     * `lambda-function.py` is a copy of the same file on the root project folder except for a changed library for deployment.
+
+
 
 
