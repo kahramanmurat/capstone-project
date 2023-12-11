@@ -35,6 +35,7 @@ Due to the limited size of the dataset, the project exclusively depends on Trans
 * `docker` is a folder that contains all of the necessary components for dockerization and deployment sections:
     * `Dockerfile` is the file necessary to create the Docker image.
     * `lambda-function.py` is a copy of the same file on the root project folder except for a changed library for deployment.
+*`kubernetes` folder: includes gateway and model service/deployment .yaml files.
 
 
 
