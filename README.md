@@ -115,7 +115,7 @@ for AWS EKS Cluster:
 
 For EKS to work we need to provide the Docker images we will use for our deployments.
 
-[We already explored how to upload a Docker image to ECR in Lesson 9](09_serverless.md#uploading-to-ecr-cli). Below is a shortened explanation to create a repository and upload the images:
+[We already explored how to upload a Docker image to ECR in Lesson 9](https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/09-serverless). Below is a shortened explanation to create a repository and upload the images:
 
 1. Create an ECR repository and login to it. We will use the name `mlzoomcamp-images` for it.
 1. Create the remote URIs for the model and gateway images.
