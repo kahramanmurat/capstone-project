@@ -25,4 +25,14 @@ Due to the limited size of the dataset, the project exclusively depends on Trans
 1 CNN architectures were used:
 * `Xception`: one of the most popular architectures available on Keras.
 
+# Files
+
+* `notebook.ipynb`: main Jupyter Notebook where all EDA and model training is carried out.
+* `lambda-function.py` contains the inference code for predictions. The script is formatted for deployment on Amazon Web Services' Lambda.
+
+* `docker` is a folder that contains all of the necessary components for dockerization and deployment sections:
+    * `Dockerfile` is the file necessary to create the Docker image.
+    * `lambda-function.py` is a copy of the same file on the root project folder except for a changed library for deployment.
+    * The folder should also contain `model.tflite`; the actual model file that is needed for predictions.
+
 
