@@ -28,7 +28,7 @@ Due to the limited size of the dataset, the project exclusively depends on Trans
 # Files
 
 * `notebook.ipynb`: main Jupyter Notebook where all EDA and model training is carried out.
-* `xception_v4_1_17_0.846.h5`: trained model in `notebook.ipynb`.
+* `xception_v4_1_17_0.846.h5`: trained model in `notebook.ipynb`. learning rate, size inner and dropout parameters were optimized and were chosen best model with the checkpoint.
 * `convert-model.py`: converts `xception_v4_1_17_0.846.h5` model to tflite model `jelly-model.tflite`.
 * `lambda-function.py` contains the inference code for predictions. The script is formatted for deployment on Amazon Web Services' Lambda.
 * `test.py`: testing the model
