@@ -51,6 +51,7 @@ There are 3 types deployments:
 For local testing:
 
 * Build and Run the docker image inside the `kubernetes` folder.
+
 `image-model.dockerfile`:
 * Build: `docker build -t jelly-model:xception-v4-001 -f image-model.dockerfile .`
       
