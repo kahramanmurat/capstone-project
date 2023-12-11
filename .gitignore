@@ -7,3 +7,4 @@ kubernetes/miscallenous.txt
 kubernetes/__pycache__/
 kubernetes/.ipynb_checkpoints/
 archive/
+.DS_Store
