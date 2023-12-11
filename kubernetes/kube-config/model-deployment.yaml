@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tf-serving-jelly-model
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tf-serving-jelly-model
+  template:
+    metadata:
+      labels:
+        app: tf-serving-jelly-model
+    spec:
+      containers:
+        - name: tf-serving-jelly-model
+          image: 963656558707.dkr.ecr.us-east-1.amazonaws.com/jelly-kube-images:jelly-model-xception-v4-001
+          resources:
+            limits:
+              memory: "512Mi"
+              cpu: "0.5"
+          ports:
+            - containerPort: 8500

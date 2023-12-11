@@ -1,0 +1,9 @@
+x.py
+Untitled.ipynb
+ecr.json
+./archive
+./.ipynb_checkpoints
+__pycache__/
+./kubernetes/miscallenous.txt
+./kubernetes/__pycache__/
+./kubernetes/.ipynb_checkpoints/
