@@ -28,6 +28,8 @@ Due to the limited size of the dataset, the project exclusively depends on Trans
 # Files
 
 * `notebook.ipynb`: main Jupyter Notebook where all EDA and model training is carried out.
+* `xception_v4_1_17_0.846.h5`: trained model in `notebook.ipynb`.
+* 
 * `lambda-function.py` contains the inference code for predictions. The script is formatted for deployment on Amazon Web Services' Lambda.
 
 * `docker` is a folder that contains all of the necessary components for dockerization and deployment sections:
