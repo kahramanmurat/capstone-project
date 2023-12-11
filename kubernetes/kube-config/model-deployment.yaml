@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: tf-serving-jelly-model
-          image: 963656558707.dkr.ecr.us-east-1.amazonaws.com/jelly-kube-images:jelly-model-xception-v4-001
+          image: jelly-model:xception-v4-001
           resources:
             limits:
               memory: "512Mi"

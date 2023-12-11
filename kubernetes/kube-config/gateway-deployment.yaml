@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: gateway
-          image: 963656558707.dkr.ecr.us-east-1.amazonaws.com/jelly-kube-images:jelly-model-gateway-001
+          image: jelly-model-gateway:001
           resources:
             limits:
               memory: "64Mi"
