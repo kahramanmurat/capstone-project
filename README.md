@@ -60,7 +60,21 @@ For local testing:
 
 Finally Run the docker compose file `docker-compose.yaml`
 
-   
+You can run and test locally:
+
+Comment in gateway.py
+```
+    <!-- url='https://images.theconversation.com/files/513157/original/file-20230302-28-r91z9l.jpg?ixlib=rb-1.1.0&rect=10%2C0%2C6699%2C4466&q=45&auto=format&w=926&fit=clip'
+    response = predict(url)
+    print(response) -->
+
+```
+Uncomment in gateway.py:
+```
+app.run(debug=True, host='0.0.0.0', port=9696)
+```
+
+
 
 * `notebook.ipynb`: main Jupyter Notebook where all EDA and model training is carried out.
 * `xception_v4_1_17_0.846.h5`: trained model in `notebook.ipynb`. learning rate, size inner and dropout parameters were optimized and were chosen best model with the checkpoint.
