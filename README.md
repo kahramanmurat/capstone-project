@@ -49,9 +49,9 @@ There are 3 types deployments:
    
 3. Kubernetes deployment (Local and AWS ECR/EKS)
    * For local testing:
-      * Build and Run the docker image inside the `kubernetes` folder . 
-      `image-model.dockerfile`:
-            * Build: `docker build -t jelly-model:xception-v4-001 -f image-model.dockerfile .`
+      ** Build and Run the docker image inside the `kubernetes` folder .
+         *** `image-model.dockerfile`:
+            **** Build: `docker build -t jelly-model:xception-v4-001 -f image-model.dockerfile .`
       `image-gateway.dockerfile`:
             * Build: `docker build -t jelly-model-gateway:001 -f image-gateway.dockerfile .`
       * Finally Run the docker compose file `docker-compose.yaml`
